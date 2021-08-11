@@ -1,0 +1,47 @@
+body{
+  margin:0;
+  padding: 0;
+}
+#video-grid{
+  display: flex;
+  justify-content: center;
+}
+video{
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+}
+.main{
+  height: 100vh;
+  display: flex;
+}
+.main_left{
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+.main_right{
+  flex: 0.2;
+}
+.main_videos{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  flex: 0.8;
+}
+.main_controls{
+  display: flex;
+  background-color: #1c1e20;
+  color: #D2D2D2;
+  padding: 5px;
+}
+.main_controls_block{
+  display: flex;
+}
+.main_controls_button{
+  display: flex;
+  flex-direction: column;
+}
